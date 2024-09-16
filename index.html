@@ -1,0 +1,23 @@
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        <h1>Agruments</h1>
+        <p id="reslut"></p>
+
+        <script>
+            function findmax(){
+                var i, max=0;
+                for (i=0;i<=arguments.length;i++){
+                    if(arguments[i]>max){
+                        max= arguments[i]
+                    }
+                }
+                return max 
+            }
+            document.write("Maximum Value Is: "+findmax(45,75,47,87,86))
+        </script>
+    </body>
+</html>
